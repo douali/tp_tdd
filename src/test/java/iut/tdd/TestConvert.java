@@ -151,4 +151,8 @@ public class TestConvert {
 	public void test_text2num_neuf() {
 		Assert.assertEquals("9", Convert.text2num("neuf"));
 	}
+	@Test
+	public void test_text2num_dix() {
+		Assert.assertEquals("10", Convert.text2num("dix"));
+	}
 }
