@@ -7,22 +7,11 @@ import org.junit.Test;
 public class TestConvert {
 	@Test
 	public void test_num2text_zero () {
-		// Given
-		/*String input = "0";
-		String expected = "zéro";
-		Convert myConvert = new Convert();
-		// When
-		String actual = myConvert.num2text(input);*/
-		// Then
 		Assert.assertEquals("zéro", Convert.num2text("0"));
 	}
 	
 	@Test
 	public void test_text2num_zero() {
-		String input = "";
-		String expected = "0";
-		Convert myConvert = new Convert();
-		String actual = myConvert.text2num(input);
-		Assert.assertEquals(expected, actual);
+		Assert.assertEquals("0", Convert.text2num("zéro"));
 	}
 }
