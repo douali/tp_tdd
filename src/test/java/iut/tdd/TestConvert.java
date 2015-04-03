@@ -46,6 +46,16 @@ public class TestConvert {
 	}
 	
 	@Test
+	public void test_num2text_huit() {
+		Assert.assertEquals("huit", Convert.num2text("8"));
+	}
+	
+	@Test
+	public void test_num2text_neuf() {
+		Assert.assertEquals("neuf", Convert.num2text("9"));
+	}
+	
+	@Test
 	public void test_text2num_zero() {
 		Assert.assertEquals("0", Convert.text2num("zéro"));
 	}
