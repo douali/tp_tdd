@@ -179,4 +179,8 @@ public class TestConvert {
 	public void test_text2num_seize() {
 		Assert.assertEquals("16", Convert.text2num("seize"));
 	}
+	@Test
+	public void test_text2num_vingt() {
+		Assert.assertEquals("20", Convert.text2num("vingt"));
+	}
 }
