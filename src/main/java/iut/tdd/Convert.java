@@ -6,10 +6,10 @@ import java.util.Map;
 public class Convert {
 		
 	public static String num2text(String input) {
-		String[] num0_9 = new String[]{"0","1","2","3","4","5","6","7","8","9"};
-		String[] text0_9 = new String[]{"zéro","un","deux","trois","quatre","cinq","six","sept","huit","neuf"};
+		String[] num0_9 = new String[]{"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"};
+		String[] text0_9 = new String[]{"zéro","un","deux","trois","quatre","cinq","six","sept","huit","neuf","dix","onze","douze","treize","quatorze","quinze","seize"};
 		Map<String, String> convert = new HashMap<String, String>();
-		for(int i = 0; i < 10; i++)
+		for(int i = 0; i < 17; i++)
 			convert.put(num0_9[i], text0_9[i]);
 		return convert.get(input);
 	}
