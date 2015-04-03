@@ -127,4 +127,8 @@ public class TestConvert {
 	public void test_text2num_trois() {
 		Assert.assertEquals("3", Convert.text2num("trois"));
 	}
+	@Test
+	public void test_text2num_quatre() {
+		Assert.assertEquals("4", Convert.text2num("quatre"));
+	}
 }
