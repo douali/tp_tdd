@@ -103,6 +103,15 @@ public class TestConvert {
 	}
 
 	@Test
+	public void test_num2text_cent() {
+		Assert.assertEquals("cent", Convert.num2text("100"));
+	}
+	
+	@Test
+	public void test_num2text_mille() {
+		Assert.assertEquals("mille", Convert.num2text("1000"));
+	}
+	@Test
 	public void test_text2num_zero() {
 		Assert.assertEquals("0", Convert.text2num("zéro"));
 	}
