@@ -183,4 +183,8 @@ public class TestConvert {
 	public void test_text2num_vingt() {
 		Assert.assertEquals("20", Convert.text2num("vingt"));
 	}
+	@Test
+	public void test_text2num_trente() {
+		Assert.assertEquals("30", Convert.text2num("trente"));
+	}
 }
