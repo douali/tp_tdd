@@ -187,4 +187,8 @@ public class TestConvert {
 	public void test_text2num_trente() {
 		Assert.assertEquals("30", Convert.text2num("trente"));
 	}
+	@Test
+	public void test_text2num_quarante() {
+		Assert.assertEquals("40", Convert.text2num("quarante"));
+	}
 }
