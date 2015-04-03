@@ -139,4 +139,8 @@ public class TestConvert {
 	public void test_text2num_six() {
 		Assert.assertEquals("6", Convert.text2num("six"));
 	}
+	@Test
+	public void test_text2num_sept() {
+		Assert.assertEquals("7", Convert.text2num("sept"));
+	}
 }
