@@ -155,4 +155,8 @@ public class TestConvert {
 	public void test_text2num_dix() {
 		Assert.assertEquals("10", Convert.text2num("dix"));
 	}
+	@Test
+	public void test_text2num_onze() {
+		Assert.assertEquals("11", Convert.text2num("onze"));
+	}
 }
