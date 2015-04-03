@@ -17,4 +17,12 @@ public class TestConvert {
 		Assert.assertEquals(expected, actual);
 	}
 	
+	@Test
+	public void test_text2num_zero() {
+		String input = "";
+		String expected = "0";
+		Convert myConvert = new Convert();
+		String actual = myConvert.text2num(input);
+		Assert.assertEquals(expected, actual);
+	}
 }

@@ -7,6 +7,8 @@ public class Convert {
 		return null;
 	}
 	public static String text2num(String input) {
+		if(input=="zéro")
+			return "0";
 		return null;
 	}
 }
