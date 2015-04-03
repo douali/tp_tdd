@@ -119,4 +119,8 @@ public class TestConvert {
 	public void test_text2num_un() {
 		Assert.assertEquals("1", Convert.text2num("un"));
 	}
+	@Test
+	public void test_text2num_deux() {
+		Assert.assertEquals("2", Convert.text2num("deux"));
+	}
 }
