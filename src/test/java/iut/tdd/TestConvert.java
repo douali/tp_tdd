@@ -31,6 +31,21 @@ public class TestConvert {
 	}
 	
 	@Test
+	public void test_num2text_cinq() {
+		Assert.assertEquals("cinq", Convert.num2text("5"));
+	}
+	
+	@Test
+	public void test_num2text_six() {
+		Assert.assertEquals("six", Convert.num2text("6"));
+	}
+	
+	@Test
+	public void test_num2text_sept() {
+		Assert.assertEquals("sept", Convert.num2text("7"));
+	}
+	
+	@Test
 	public void test_text2num_zero() {
 		Assert.assertEquals("0", Convert.text2num("zéro"));
 	}
